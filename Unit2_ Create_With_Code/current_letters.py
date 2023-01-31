@@ -8,6 +8,3 @@ while runagein == "y"
      else:
           runagein = "n"
 print("Ok see you next time")      
-
-# create a program that counts the number of words in a book title
-#
