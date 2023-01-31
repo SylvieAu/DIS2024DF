@@ -1,9 +1,13 @@
 print ("welcome to my book title computer!")
-answer = input("Do you want me to count the characters of a book title for you? (yes/no) ").upper()
+answer = input("Do you want me to count the characters of a book title for you? (yes/no) ").lower()
 if answer == "Yes" or "yes":
-     book = input("What is the title of the book?")
-     length = str(len(book))
-     print("There are " , length, symbols in the book title " , book, including the spaces.")
-else:
-    input("Ok")
-     
+while runagein == "y"     
+     if answer == "yes":
+          book= input("What is the title of the book")
+          print(f"The are {len(book)} characters in the book title {book} including spaces.")
+     else:
+          runagein = "n"
+print("Ok see you next time")      
+
+# create a program that counts the number of words in a book title
+#
