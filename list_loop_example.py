@@ -9,4 +9,4 @@ for name in names:
     
 print(type(names))
 
-for index, name in enumerate(names)
+for index, name in enumerate(names):
